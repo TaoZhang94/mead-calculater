@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725BC7E1233F72B0005981AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BC7E0233F72B0005981AC /* AppDelegate.swift */; };
+		725BC7E3233F72B0005981AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BC7E2233F72B0005981AC /* ViewController.swift */; };
+		725BC7E6233F72B0005981AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725BC7E4233F72B0005981AC /* Main.storyboard */; };
+		725BC7E8233F72B1005981AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725BC7E7233F72B1005981AC /* Assets.xcassets */; };
+		725BC7EB233F72B1005981AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725BC7E9233F72B1005981AC /* LaunchScreen.storyboard */; };
+		725BC7F6233F72B1005981AC /* Mead_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BC7F5233F72B1005981AC /* Mead_CalculatorTests.swift */; };
+		725BC801233F72B1005981AC /* Mead_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BC800233F72B1005981AC /* Mead_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725BC7F2233F72B1005981AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725BC7D5233F72B0005981AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725BC7DC233F72B0005981AC;
+			remoteInfo = "Mead Calculator";
+		};
+		725BC7FD233F72B1005981AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725BC7D5233F72B0005981AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725BC7DC233F72B0005981AC;
+			remoteInfo = "Mead Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		725BC7DD233F72B0005981AC /* Mead Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mead Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725BC7E0233F72B0005981AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		725BC7E2233F72B0005981AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		725BC7E5233F72B0005981AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725BC7E7233F72B1005981AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725BC7EA233F72B1005981AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		725BC7EC233F72B1005981AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725BC7F1233F72B1005981AC /* Mead CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mead CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725BC7F5233F72B1005981AC /* Mead_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mead_CalculatorTests.swift; sourceTree = "<group>"; };
+		725BC7F7233F72B1005981AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725BC7FC233F72B1005981AC /* Mead CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mead CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725BC800233F72B1005981AC /* Mead_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mead_CalculatorUITests.swift; sourceTree = "<group>"; };
+		725BC802233F72B1005981AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725BC7DA233F72B0005981AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7EE233F72B1005981AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7F9233F72B1005981AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725BC7D4233F72B0005981AC = {
+			isa = PBXGroup;
+			children = (
+				725BC7DF233F72B0005981AC /* Mead Calculator */,
+				725BC7F4233F72B1005981AC /* Mead CalculatorTests */,
+				725BC7FF233F72B1005981AC /* Mead CalculatorUITests */,
+				725BC7DE233F72B0005981AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725BC7DE233F72B0005981AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725BC7DD233F72B0005981AC /* Mead Calculator.app */,
+				725BC7F1233F72B1005981AC /* Mead CalculatorTests.xctest */,
+				725BC7FC233F72B1005981AC /* Mead CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725BC7DF233F72B0005981AC /* Mead Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				725BC7E0233F72B0005981AC /* AppDelegate.swift */,
+				725BC7E2233F72B0005981AC /* ViewController.swift */,
+				725BC7E4233F72B0005981AC /* Main.storyboard */,
+				725BC7E7233F72B1005981AC /* Assets.xcassets */,
+				725BC7E9233F72B1005981AC /* LaunchScreen.storyboard */,
+				725BC7EC233F72B1005981AC /* Info.plist */,
+			);
+			path = "Mead Calculator";
+			sourceTree = "<group>";
+		};
+		725BC7F4233F72B1005981AC /* Mead CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				725BC7F5233F72B1005981AC /* Mead_CalculatorTests.swift */,
+				725BC7F7233F72B1005981AC /* Info.plist */,
+			);
+			path = "Mead CalculatorTests";
+			sourceTree = "<group>";
+		};
+		725BC7FF233F72B1005981AC /* Mead CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				725BC800233F72B1005981AC /* Mead_CalculatorUITests.swift */,
+				725BC802233F72B1005981AC /* Info.plist */,
+			);
+			path = "Mead CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725BC7DC233F72B0005981AC /* Mead Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725BC805233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead Calculator" */;
+			buildPhases = (
+				725BC7D9233F72B0005981AC /* Sources */,
+				725BC7DA233F72B0005981AC /* Frameworks */,
+				725BC7DB233F72B0005981AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mead Calculator";
+			productName = "Mead Calculator";
+			productReference = 725BC7DD233F72B0005981AC /* Mead Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725BC7F0233F72B1005981AC /* Mead CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725BC808233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead CalculatorTests" */;
+			buildPhases = (
+				725BC7ED233F72B1005981AC /* Sources */,
+				725BC7EE233F72B1005981AC /* Frameworks */,
+				725BC7EF233F72B1005981AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725BC7F3233F72B1005981AC /* PBXTargetDependency */,
+			);
+			name = "Mead CalculatorTests";
+			productName = "Mead CalculatorTests";
+			productReference = 725BC7F1233F72B1005981AC /* Mead CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		725BC7FB233F72B1005981AC /* Mead CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725BC80B233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead CalculatorUITests" */;
+			buildPhases = (
+				725BC7F8233F72B1005981AC /* Sources */,
+				725BC7F9233F72B1005981AC /* Frameworks */,
+				725BC7FA233F72B1005981AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725BC7FE233F72B1005981AC /* PBXTargetDependency */,
+			);
+			name = "Mead CalculatorUITests";
+			productName = "Mead CalculatorUITests";
+			productReference = 725BC7FC233F72B1005981AC /* Mead CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725BC7D5233F72B0005981AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ZHANG, Tao - zhaty039";
+				TargetAttributes = {
+					725BC7DC233F72B0005981AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					725BC7F0233F72B1005981AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 725BC7DC233F72B0005981AC;
+					};
+					725BC7FB233F72B1005981AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 725BC7DC233F72B0005981AC;
+					};
+				};
+			};
+			buildConfigurationList = 725BC7D8233F72B0005981AC /* Build configuration list for PBXProject "Mead Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725BC7D4233F72B0005981AC;
+			productRefGroup = 725BC7DE233F72B0005981AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725BC7DC233F72B0005981AC /* Mead Calculator */,
+				725BC7F0233F72B1005981AC /* Mead CalculatorTests */,
+				725BC7FB233F72B1005981AC /* Mead CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725BC7DB233F72B0005981AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725BC7EB233F72B1005981AC /* LaunchScreen.storyboard in Resources */,
+				725BC7E8233F72B1005981AC /* Assets.xcassets in Resources */,
+				725BC7E6233F72B0005981AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7EF233F72B1005981AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7FA233F72B1005981AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725BC7D9233F72B0005981AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725BC7E3233F72B0005981AC /* ViewController.swift in Sources */,
+				725BC7E1233F72B0005981AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7ED233F72B1005981AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725BC7F6233F72B1005981AC /* Mead_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725BC7F8233F72B1005981AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725BC801233F72B1005981AC /* Mead_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725BC7F3233F72B1005981AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725BC7DC233F72B0005981AC /* Mead Calculator */;
+			targetProxy = 725BC7F2233F72B1005981AC /* PBXContainerItemProxy */;
+		};
+		725BC7FE233F72B1005981AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725BC7DC233F72B0005981AC /* Mead Calculator */;
+			targetProxy = 725BC7FD233F72B1005981AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		725BC7E4233F72B0005981AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725BC7E5233F72B0005981AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		725BC7E9233F72B1005981AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725BC7EA233F72B1005981AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725BC803233F72B1005981AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725BC804233F72B1005981AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725BC806233F72B1005981AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725BC807233F72B1005981AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		725BC809233F72B1005981AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mead Calculator.app/Mead Calculator";
+			};
+			name = Debug;
+		};
+		725BC80A233F72B1005981AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mead Calculator.app/Mead Calculator";
+			};
+			name = Release;
+		};
+		725BC80C233F72B1005981AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mead Calculator";
+			};
+			name = Debug;
+		};
+		725BC80D233F72B1005981AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mead CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.Mead-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mead Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725BC7D8233F72B0005981AC /* Build configuration list for PBXProject "Mead Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725BC803233F72B1005981AC /* Debug */,
+				725BC804233F72B1005981AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725BC805233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725BC806233F72B1005981AC /* Debug */,
+				725BC807233F72B1005981AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725BC808233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725BC809233F72B1005981AC /* Debug */,
+				725BC80A233F72B1005981AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725BC80B233F72B1005981AC /* Build configuration list for PBXNativeTarget "Mead CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725BC80C233F72B1005981AC /* Debug */,
+				725BC80D233F72B1005981AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725BC7D5233F72B0005981AC /* Project object */;
+}
